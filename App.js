@@ -5,11 +5,11 @@ import withCodePush from './codepush';
 class App extends React.Component {
    render() {
     return (
-      <View style={{justifyContent:'center', alignItems:'center'}}>
-      <Text>
+      <View style={{flex:1, justifyContent:'center', alignItems:'center', backgroundColor:'#FF5C8D'}}>
+      <Text style={{color:'#FDEFF4'}}>
         Hello I am a react native app.....
       </Text>
-      <Text>
+      <Text style={{color:'#8BDB81'}}>
         Hello Codepush......
       </Text>
       </View>
